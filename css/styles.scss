@@ -1,0 +1,20 @@
+---
+---
+@import "main";
+@import "button";
+@import "projects";
+@import "social_media";
+@import "links";
+
+@font-face {
+  font-family: 'top_gunregular';
+  src: url('/font/top_gun-webfont.woff2') format('woff2'),
+       url('/font/top_gun-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'top_gun';
+  src: url('/font/TOP_GUN.ttf') format('truetype');
+}

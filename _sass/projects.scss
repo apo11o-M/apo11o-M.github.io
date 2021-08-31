@@ -1,0 +1,98 @@
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1.2em;
+  column-gap: 1.5em;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.projects img {
+  display: inline;
+  align-items: stretch;
+  text-align: center;
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #e5e7eb;
+  border-width: 1px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 10px 3px #F9F9F9;
+}
+
+// Obj File Renderer Project
+#obj_renderer, #mcaerial_mod, #codename_null {
+  position: relative;
+  text-align: center;
+}
+#obj_renderer .obj_renderer_title, #mcaerial_mod .mcaerial_title, #codename_null .codename_null_title {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}  
+#obj_renderer .obj_renderer_description, #mcaerial_mod .mcaerial_description, #codename_null .codename_null_description {
+  position: absolute;
+  font-size: 1rem;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Project #4
+// #project4 {
+//   position: relative;
+//   text-align: center;
+// }
+// #project4 .project4_title {
+//   position: absolute;
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 1.4rem;
+//   top: 45%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+// #project4 .project4_description {
+//   position: absolute;
+//   top: 70%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+@media screen and (min-width: 1600px) {
+  body {
+    max-width: 1200px;
+  }
+  body p {
+    max-width: 880px;
+  }
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2.2em;
+    min-height: 105%;
+  }
+  .projects img {
+    min-height: 105%;
+  }
+
+}
+
+@media screen and (max-width: 752px) {
+  .projects {
+    grid-template-columns: 1fr;
+    row-gap: 2em;
+    max-height: 200px;
+  }
+  .projects img {
+    max-height: 300px;
+  }
+
+}

@@ -1,0 +1,72 @@
+.current {
+  color: green;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 80px;
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+  max-width: 840px;
+  line-height: 1.6rem;
+  position: relative;
+  -webkit-font-smoothing: auto;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+header h2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 0.8em;
+}
+
+header p {
+  margin-top: 0;
+  line-height: 2rem;
+}
+
+header .header_webmaster_p {
+  margin-top: 1em;
+}
+
+main h2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.4rem;
+}
+
+main p {
+  margin-bottom: 3em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  padding-top: 5em;
+  padding-bottom: 5em;  
+  font-size: 1rem;
+
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    min-width: 308px;
+  }
+}

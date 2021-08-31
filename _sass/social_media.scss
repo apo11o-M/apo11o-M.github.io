@@ -1,0 +1,38 @@
+.social_media {
+  height: 52px;
+  width: 52px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  margin-right: 20px;
+  margin-top: 1.1em;
+  margin-bottom: 1.2em;
+  background-color: white;
+  border-color: #e5e7eb;
+  padding: 11px 10px 10px 10px;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 1.5px;  
+  transition: background-color 0.2s;
+
+}
+
+.social_media:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: background-color 0.2s;
+}
+
+#discord {
+  border-color: #dce1f5;
+}
+
+#instagram {
+  border-color: #ebe2d1;
+}
+
+#linkedin {
+  border-color: #efdcf5;
+}
+

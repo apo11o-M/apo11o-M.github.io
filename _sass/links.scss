@@ -1,0 +1,56 @@
+.header_codingminds_link {
+  font-family: 'Barlow', sans-serif;
+  font-weight: bolder;
+  padding: 0.1em 0.1em 0.2em 0.3em;
+  color: rgb(73, 167, 255);
+  background-color: rgba(20,140,252,.03);
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.2s;
+  text-decoration: none;
+}
+.header_codingminds_link:hover {
+  background-color: rgba(20, 140, 252, 0.13);
+  transition: background-color 0.2s;
+}
+
+.header_objrenderer_link {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px dashed rgb(184, 184, 184);
+  padding: 0.1em;
+  transition: border-color 0.2s ease-in-out;
+}
+.header_objrenderer_link:hover {
+  border-color: rgb(36, 36, 36);
+  transition: border-color 0.2s ease-in-out;
+}
+
+.header_gamespawn_link {
+  display: inline;
+  font-family: 'top_gunregular', 'Barlow', Arial, sans-serif;  
+  // font-family: 'top_gun', 'Barlow', Arial, sans-serif;
+  font-style: italic;
+  font-size: large;
+  padding: 0.7em 0.6em 0em 0.4em;
+  color: rgb(133, 106, 255);
+  background-color: rgba(20,140,252,.03);
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.2s;
+  text-decoration: none;
+}
+.header_gamespawn_link:hover {
+  background-color: rgba(20, 140, 252, 0.13);
+  transition: background-color 0.2s;
+}
+
+// .header_gamespawn_static {
+//   position: absolute;
+//   margin-top: 10px;
+//   padding: 0;
+// }
+
+// .header_gamespawn_static:hover {
+//   opacity: 0;
+// }
