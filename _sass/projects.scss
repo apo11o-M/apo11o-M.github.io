@@ -34,6 +34,7 @@
   position: absolute;
   font-family: 'Roboto', sans-serif;
   font-size: 1.4rem;
+  color: rgb(14, 14, 14);
   white-space: nowrap;
   top: 45%;
   left: 50%;
@@ -42,9 +43,18 @@
 #obj_renderer .obj_renderer_description, #mcaerial_mod .mcaerial_description, #codename_null .codename_null_description {
   position: absolute;
   font-size: 1rem;
+  color: rgb(14, 14, 14);
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#obj_renderer:visited, #mcaerial_mod:visited, #codename_null:visited {
+  color: rgb(14, 14, 14);
+}
+
+#obj_renderer:active, #mcaerial_mod:active, #codename_null:active {
+  color: rgb(14, 14, 14);
 }
 
 // Project #4
@@ -67,7 +77,7 @@
 //   transform: translate(-50%, -50%);
 // }
 
-@media screen and (min-width: 1600px) {
+@media only screen and (min-width: 1600px) {
   body {
     max-width: 1200px;
   }
@@ -85,7 +95,7 @@
 
 }
 
-@media screen and (max-width: 752px) {
+@media only screen and (max-width: 752px) {
   .projects {
     grid-template-columns: 1fr;
     row-gap: 2em;
